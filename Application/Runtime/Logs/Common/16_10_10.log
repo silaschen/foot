@@ -1,0 +1,24 @@
+[ 2016-10-10T09:00:13+08:00 ] ::1 /fuckabc/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001764s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-10-10T14:35:01+08:00 ] ::1 /fuckabc/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002746s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-10-10T15:30:18+08:00 ] ::1 /fuckabc/index.php/video/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001671s ]
+ERR: 无法加载模块:Video
+
+[ 2016-10-10T22:03:46+08:00 ] ::1 /fuckabc/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003107s ]
+ERR: 无法加载模块:Favicon
+

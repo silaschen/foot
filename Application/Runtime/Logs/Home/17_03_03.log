@@ -1,0 +1,128 @@
+[ 2017-03-03T20:38:53+08:00 ] ::1 /foot/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002457s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Undefined index: view /var/www/foot/Application/Runtime/Cache/Home/74c9bdbded7009a43a281be8a565b911.php 第 422 行.
+NOTIC: [8] Undefined index: view /var/www/foot/Application/Runtime/Cache/Home/74c9bdbded7009a43a281be8a565b911.php 第 422 行.
+NOTIC: [8] Undefined index: view /var/www/foot/Application/Runtime/Cache/Home/74c9bdbded7009a43a281be8a565b911.php 第 422 行.
+NOTIC: [8] Undefined index: view /var/www/foot/Application/Runtime/Cache/Home/74c9bdbded7009a43a281be8a565b911.php 第 422 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002709s ]
+
+[ 2017-03-03T20:39:04+08:00 ] ::1 /foot/index.php/home/index/rankcsl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-03-03T20:39:14+08:00 ] ::1 /foot/index.php/home/index/rankcsl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000141s ]
+
+[ 2017-03-03T20:39:19+08:00 ] ::1 /foot/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Undefined index: view /var/www/foot/Application/Runtime/Cache/Home/74c9bdbded7009a43a281be8a565b911.php 第 422 行.
+NOTIC: [8] Undefined index: view /var/www/foot/Application/Runtime/Cache/Home/74c9bdbded7009a43a281be8a565b911.php 第 422 行.
+NOTIC: [8] Undefined index: view /var/www/foot/Application/Runtime/Cache/Home/74c9bdbded7009a43a281be8a565b911.php 第 422 行.
+NOTIC: [8] Undefined index: view /var/www/foot/Application/Runtime/Cache/Home/74c9bdbded7009a43a281be8a565b911.php 第 422 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+

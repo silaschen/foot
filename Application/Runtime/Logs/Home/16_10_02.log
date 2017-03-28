@@ -1,0 +1,117 @@
+[ 2016-10-02T17:16:32+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-10-02T17:19:07+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-10-02T17:19:12+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-10-02T17:22:38+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-10-02T17:22:41+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-10-02T17:24:09+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-10-02T17:24:28+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002676s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-10-02T17:28:35+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-10-02T17:28:58+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-10-02T17:28:59+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-10-02T17:29:01+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002420s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-10-02T17:30:49+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-10-02T17:30:50+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+

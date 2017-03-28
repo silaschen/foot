@@ -1,0 +1,115 @@
+ <link rel="stylesheet" href="__PUBLIC__/jQuery-File-Upload-9.9.3/css/jquery.fileupload.css">
+		<div class="col-md-10" id="addpic">
+		<form id="form">
+		<input type="hidden" name="id" value="{$info.id}">
+			<div class="form-group">
+				<label>title news</label>
+				<input type="text" name="title" class="form-control" placeholder="文章标题" value="{$info.title}">
+			</div>
+						
+
+		<div class='form-group'>
+              <label>封面图片：</label>
+                <a href="javascript:$('#cover').val('');$('.showcover').html('');" onclick="return confirm('确定清除封面？');" class='pull-right'>清除封面</a> <br>
+                  <button type='button' class='btn btn-success btn-sm fileinput-button'><i class="glyphicon glyphicon-picture"></i> <small>推荐尺寸 400*300 点击上传</small><input  id="uploadcover" type="file" name="files" accept="image/*" multiple=""></button>
+                    <div id="progress" class="progress">
+                        <div class="progress-bar progress-bar-success"></div>
+                    </div>
+                    <div id="files" class="files">
+                    </div>
+                    <div class='showcover'>
+                          
+                    </div>
+                <input class='hide' name='cover' id='cover'>
+       </div>
+
+				<div class="form-group">
+						<textarea name="jia"  class="form-control" rows="4" placeholder="文章内容"></textarea>
+			</div>
+		<div class="form-group">
+				<label>Team news</label>
+				<select name="cid" class="form-control">
+					<foreach name="team" item="vo">
+					<option value="{$vo.id}">{$vo.clubname}</option>
+					</foreach>
+				</select>
+
+			</div>
+					<textarea name="content" style="display:none;"></textarea>		
+			<div class="form-group">
+				<a class="btn btn-info news-add" onclick="javascript:SaveNew()">发表</a>
+
+					</form>
+
+
+
+		</div>
+
+
+<script type="text/javascript" src="__PUBLIC__/ckeditor/ckeditor.js"></script>
+<script type="text/javascript">
+		 var ed=CKEDITOR.replace("jia");
+
+
+	function SaveNew(){
+				 var content=ed.getData();
+				 $("textarea[name='content']").val(content);
+		$(".news-add").attr("disabled",'true');
+		$.post(location.href,$("#form").serializeArray(),function(data){
+
+			alert(data.msg);
+			if (data.ret == 1) {
+					location.href = "{:U('Picnews/index')}";
+			}
+
+
+
+		},'JSON');
+
+
+
+	}
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="__PUBLIC__/jQuery-File-Upload-9.9.3/js/vendor/jquery.ui.widget.js"></script>
+<script src="__PUBLIC__/jQuery-File-Upload-9.9.3/js/load-image.all.min.js"></script>
+<script src="__PUBLIC__/jQuery-File-Upload-9.9.3/js/canvas-to-blob.min.js"></script>
+<script src="__PUBLIC__/jQuery-File-Upload-9.9.3/js/jquery.iframe-transport.js"></script>
+<script src="__PUBLIC__/jQuery-File-Upload-9.9.3/js/jquery.fileupload.js"></script>
+<script src="__PUBLIC__/jQuery-File-Upload-9.9.3/js/jquery.fileupload-process.js"></script>
+<script src="__PUBLIC__/jQuery-File-Upload-9.9.3/js/jquery.fileupload-image.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('#uploadcover').fileupload({
+        url: "{:U('Common/loadimg')}",
+        dataType: 'JSON',
+        acceptFileTypes: 'jpg,png,gif,jpeg,bmp',
+        maxFileSize: 8000000, // 800kb
+         disableImageResize: /Android(?!.*Chrome)|Opera/.test(window.navigator && navigator.userAgent),
+        imageMaxWidth: 400, //自动裁剪保持该宽度
+        // imageMaxHeight: 300,
+        // imageCrop: true,
+        done: function (e, data) {
+          if(data.result.ret == 1){
+              $("input[name='cover']").val(data.result.file);
+                alert(data.result.file);
+              $(".showcover").html("<img src='__ROOT__/"+data.result.file+"'>");
+            }else{
+              alert(data.result.msg);
+            }
+        },
+        progressall: function (e, data) {
+            var progress = parseInt(data.loaded / data.total * 100, 10);
+            $('#progress .progress-bar').css(
+                'width',
+                progress + '%'
+            );
+        }
+    }).prop('disabled', !$.support.fileInput)
+        .parent().addClass($.support.fileInput ? undefined : 'disabled');
+
+});
+</script>

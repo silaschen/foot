@@ -1,0 +1,763 @@
+[ 2016-10-25T08:08:29+08:00 ] ::1 /Zuqiuweb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006856s ]
+
+[ 2016-10-25T08:08:43+08:00 ] ::1 /Zuqiuweb/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002690s ]
+
+[ 2016-10-25T08:08:55+08:00 ] ::1 /Zuqiuweb/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+
+[ 2016-10-25T08:10:23+08:00 ] ::1 /Zuqiuweb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001919s ]
+
+[ 2016-10-25T08:11:42+08:00 ] ::1 /Zuqiuweb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+
+[ 2016-10-25T08:11:45+08:00 ] ::1 /Zuqiuweb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+
+[ 2016-10-25T08:11:49+08:00 ] ::1 /Zuqiuweb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+
+[ 2016-10-25T08:15:10+08:00 ] ::1 /Zuqiuweb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006514s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0684s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0751s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0527s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0611s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000561s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.484202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.484374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005427s ]
+
+[ 2016-10-25T08:15:27+08:00 ] ::1 /Zuqiuweb/index.php/home/picnews/view/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002627s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0036s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=4 ) [ RunTime:0.0154s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 4 LIMIT 1   [ RunTime:0.0041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.209248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.209396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002553s ]
+
+[ 2016-10-25T08:15:36+08:00 ] ::1 /Zuqiuweb/index.php/home/picnews/view/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004888s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=3 ) [ RunTime:0.0241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 3 LIMIT 1   [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004925s ]
+
+[ 2016-10-25T17:49:04+08:00 ] ::1 /Zuqiuweb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.059841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.060029s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.803520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.803676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010818s ]
+
+[ 2016-10-25T17:49:48+08:00 ] ::1 /Zuqiuweb/index.php/home/index/digui
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+ERR: 非法操作:digui
+
+[ 2016-10-25T17:49:52+08:00 ] ::1 /Zuqiuweb/index.php/home/index/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 48 AND `pid` = 0  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 48 AND `pid` = 2  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 48 AND `pid` = 3  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002278s ]
+
+[ 2016-10-25T17:50:01+08:00 ] ::1 /Zuqiuweb/index.php/home/index/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002819s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0454s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 48 AND `pid` = 0  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 48 AND `pid` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 48 AND `pid` = 3  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002145s ]
+
+[ 2016-10-25T17:55:20+08:00 ] ::1 /Zuqiuweb/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002900s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.303544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.303677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007688s ]
+
+[ 2016-10-25T17:55:39+08:00 ] ::1 /Zuqiuweb/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002873s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.176855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002664s ]
+
+[ 2016-10-25T17:55:42+08:00 ] ::1 /Zuqiuweb/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002836s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0494s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = 'chen1210' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-25T17:55:53+08:00 ] ::1 /Zuqiuweb/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = 'chen1210' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-10-25T17:56:11+08:00 ] ::1 /Zuqiuweb/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002575s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-10-25T17:56:15+08:00 ] ::1 /Zuqiuweb/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002866s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000412s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.324755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.324907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005643s ]
+
+[ 2016-10-25T17:56:38+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/view/id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003425s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0376s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=54 ) [ RunTime:0.0097s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '54' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 54 ORDER BY time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 LIMIT 1   [ RunTime:0.0011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.275765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.275892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002762s ]
+
+[ 2016-10-25T18:00:08+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/view/id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004233s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0490s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=54 ) [ RunTime:0.0103s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '54' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 54 ORDER BY time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 LIMIT 1   [ RunTime:0.0011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.230792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.231062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003154s ]
+
+[ 2016-10-25T18:00:20+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002602s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0251s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`,`pid`) VALUES ('54','王大雷傻逼','admin','2016-10-25 18:00:20','0') [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 0 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-10-25T18:02:14+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/view/id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005541s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0383s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=54 ) [ RunTime:0.0115s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '54' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 54 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 7 AND `lesson_id` = 54 ORDER BY time desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0318s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 7 LIMIT 1   [ RunTime:0.0015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.260129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.260258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002307s ]
+
+[ 2016-10-25T18:02:36+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/view/id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002564s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0349s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=54 ) [ RunTime:0.0105s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '54' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 54 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 7 AND `lesson_id` = 54 ORDER BY time desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 7 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.239198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.239295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2016-10-25T18:04:45+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/view/id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004046s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0425s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=54 ) [ RunTime:0.0117s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '54' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 54 ORDER BY time desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 7 AND `lesson_id` = 54 ORDER BY time desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 7 LIMIT 1   [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.265284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.265405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001997s ]
+
+[ 2016-10-25T18:04:58+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003231s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0248s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`,`pid`) VALUES ('54','大雷是你爸爸','admin','2016-10-25 18:04:58','7') [ RunTime:0.0118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 7 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-10-25T18:05:51+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/view/id/54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004428s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0387s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=54 ) [ RunTime:0.0037s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '54' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 54 ORDER BY time desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 7 AND `lesson_id` = 54 ORDER BY time desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 8 AND `lesson_id` = 54 ORDER BY time desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0297s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 7 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.268661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.268819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003923s ]
+
+[ 2016-10-25T18:06:05+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002281s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0250s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`,`pid`) VALUES ('54','是你爷爷','admin','2016-10-25 18:06:05','7') [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 7 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-10-25T18:06:18+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002064s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0250s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`,`pid`) VALUES ('54','哈哈哈，挺你，鲁能。','admin','2016-10-25 18:06:18','0') [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 0 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-10-25T18:06:38+08:00 ] ::1 /Zuqiuweb/index.php/home/index/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002682s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0381s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 0  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 7  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 8  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 9  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 10  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002740s ]
+
+[ 2016-10-25T18:06:43+08:00 ] ::1 /Zuqiuweb/index.php/home/index/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002563s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 0  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 7  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 8  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 9  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_comment` WHERE `lesson_id` = 54 AND `pid` = 10  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002907s ]
+
+[ 2016-10-25T18:38:41+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003052s ]
+
+[ 2016-10-25T18:39:34+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002932s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `news_cate` WHERE ( pid=0 )  [ RunTime:0.0011s ]
+NOTIC: [8] Array to string conversion D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: Array D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: result D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003212s ]
+
+[ 2016-10-25T18:40:34+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002656s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `news_cate` WHERE ( pid=0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Array to string conversion D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: Array D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: result D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003136s ]
+
+[ 2016-10-25T18:40:53+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003044s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `news_cate` WHERE ( pid=1 )  [ RunTime:0.0013s ]
+NOTIC: [8] Array to string conversion D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: Array D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: result D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003509s ]
+
+[ 2016-10-25T18:40:54+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002711s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `news_cate` WHERE ( pid=1 )  [ RunTime:0.0014s ]
+NOTIC: [8] Array to string conversion D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: Array D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: result D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003483s ]
+
+[ 2016-10-25T18:41:06+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002999s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `news_cate` WHERE ( pid=1 )  [ RunTime:0.0009s ]
+NOTIC: [8] Array to string conversion D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: Array D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: result D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003696s ]
+
+[ 2016-10-25T18:41:53+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003979s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `news_cate` WHERE `pid` = 1  [ RunTime:0.0009s ]
+NOTIC: [8] Array to string conversion D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: Array D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: result D:\myweb\Zuqiuweb\Application\Home\Controller\LessonController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003427s ]
+
+[ 2016-10-25T18:42:31+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003126s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0381s ]
+SQL: SELECT * FROM `news_cate` WHERE `pid` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_cate` WHERE `pid` = 5  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_cate` WHERE `pid` = 6  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003302s ]
+
+[ 2016-10-25T18:42:44+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/dg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+SQL: SHOW COLUMNS FROM `news_cate` [ RunTime:0.0367s ]
+SQL: SELECT * FROM `news_cate` WHERE `pid` = 0  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_cate` WHERE `pid` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_cate` WHERE `pid` = 5  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_cate` WHERE `pid` = 6  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_cate` WHERE `pid` = 2  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003429s ]
+

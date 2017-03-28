@@ -1,0 +1,2331 @@
+[ 2016-09-26T17:04:10+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036300s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-09-26T18:08:45+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002510s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-09-26T18:09:10+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-09-26T18:09:10+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002253s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-09-26T18:09:11+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-09-26T18:09:12+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+ERR: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND'
+
+[ 2016-09-26T19:44:27+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.044312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044560s ]
+ERR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+
+[ 2016-09-26T19:59:07+08:00 ] ::1 /fuckabc/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0516s ]
+SQL: SELECT * FROM `news_lesson` LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.379410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.379587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002704s ]
+
+[ 2016-09-26T19:59:11+08:00 ] ::1 /fuckabc/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002643s ]
+
+[ 2016-09-26T19:59:24+08:00 ] ::1 /fuckabc/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003580s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0524s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'sjjjj' AND `password` = 'dwuhwuiqdbe' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-26T19:59:40+08:00 ] ::1 /fuckabc/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003313s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0389s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'sw' AND `password` = 'chen1210' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-09-26T19:59:44+08:00 ] ::1 /fuckabc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002326s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `news_lesson` LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003591s ]
+
+[ 2016-09-26T20:00:10+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002226s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0371s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=36 ) [ RunTime:0.0103s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=36 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-09-26T20:10:29+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003378s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0425s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0096s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002645s ]
+
+[ 2016-09-26T20:10:41+08:00 ] ::1 /fuckabc/index.php/home/index/donate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.192475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.192659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002855s ]
+
+[ 2016-09-26T20:10:41+08:00 ] ::1 /fuckabc/index.php/home/index/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001720s ]
+
+[ 2016-09-26T20:10:47+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002582s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0529s ]
+SQL: SELECT * FROM `news_lesson` LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.198523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.198698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004423s ]
+
+[ 2016-09-26T20:11:10+08:00 ] ::1 /fuckabc/index.php/home/video/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002835s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'tpstu'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.287367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.287546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003005s ]
+
+[ 2016-09-26T20:11:10+08:00 ] ::1 /fuckabc/index.php/home/video/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+
+[ 2016-09-26T20:11:59+08:00 ] ::1 /fuckabc/index.php/home/video/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004091s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0405s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'tpstu'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.284773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.284982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004082s ]
+
+[ 2016-09-26T20:12:19+08:00 ] ::1 /fuckabc/index.php/home/video/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+
+[ 2016-09-26T20:12:47+08:00 ] ::1 /fuckabc/index.php/home/video/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002111s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'tpstu'  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002730s ]
+
+[ 2016-09-26T20:12:47+08:00 ] ::1 /fuckabc/index.php/home/video/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001292s ]
+
+[ 2016-09-26T20:13:04+08:00 ] ::1 /fuckabc/index.php/home/video/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'tpstu'  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.276219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.276391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002986s ]
+
+[ 2016-09-26T20:13:04+08:00 ] ::1 /fuckabc/index.php/home/video/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003022s ]
+
+[ 2016-09-26T20:13:06+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003456s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `news_lesson` LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.239357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.239541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003370s ]
+
+[ 2016-09-26T20:13:16+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002901s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0402s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0037s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.219137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.219288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002903s ]
+
+[ 2016-09-26T20:13:29+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002487s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `news_lesson` LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003886s ]
+
+[ 2016-09-26T20:13:32+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003295s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0414s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=39 ) [ RunTime:0.0094s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '39' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003185s ]
+
+[ 2016-09-26T20:13:54+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004106s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0483s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0128s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003577s ]
+
+[ 2016-09-26T20:16:34+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002560s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0431s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0092s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002996s ]
+
+[ 2016-09-26T20:16:52+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002498s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0406s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=38 ) [ RunTime:0.0093s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '38' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002299s ]
+
+[ 2016-09-26T20:17:01+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002169s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0441s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=39 ) [ RunTime:0.0094s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '39' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002380s ]
+
+[ 2016-09-26T20:17:28+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002567s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0422s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=39 ) [ RunTime:0.0093s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '39' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.191482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.191650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002622s ]
+
+[ 2016-09-26T20:17:41+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0411s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=39 ) [ RunTime:0.0135s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '39' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.196195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.196347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003066s ]
+
+[ 2016-09-26T20:18:03+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0419s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=39 ) [ RunTime:0.0094s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '39' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.192879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.193039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002326s ]
+
+[ 2016-09-26T20:18:14+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002526s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0419s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=39 ) [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '39' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003215s ]
+
+[ 2016-09-26T20:18:18+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003135s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `news_lesson` LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002924s ]
+
+[ 2016-09-26T20:18:21+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003011s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0419s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0096s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003026s ]
+
+[ 2016-09-26T20:19:15+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003256s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0413s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0138s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.197586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.197737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003611s ]
+
+[ 2016-09-26T20:19:18+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002818s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0418s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0087s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003091s ]
+
+[ 2016-09-26T20:19:43+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002896s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0408s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0095s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.203059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002944s ]
+
+[ 2016-09-26T20:20:06+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003235s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0426s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0093s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002782s ]
+
+[ 2016-09-26T20:20:14+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003304s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0435s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0166s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.200773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.200926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003126s ]
+
+[ 2016-09-26T20:23:30+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002902s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0415s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0096s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+ERR: syntax error, unexpected end of file
+
+[ 2016-09-26T20:23:43+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005172s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0391s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0100s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.193544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.193690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002555s ]
+
+[ 2016-09-26T20:23:49+08:00 ] ::1 /fuckabc/index.php/home/user/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004373s ]
+
+[ 2016-09-26T20:23:49+08:00 ] ::1 /fuckabc/index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003844s ]
+
+[ 2016-09-26T20:23:52+08:00 ] ::1 /fuckabc/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004228s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `news_lesson` LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003885s ]
+
+[ 2016-09-26T20:23:55+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003562s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0415s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0093s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003370s ]
+
+[ 2016-09-26T20:24:00+08:00 ] ::1 /fuckabc/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003494s ]
+
+[ 2016-09-26T20:24:07+08:00 ] ::1 /fuckabc/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005923s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0475s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'sw' AND `password` = 'chen1210' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-09-26T20:24:10+08:00 ] ::1 /fuckabc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003434s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `news_lesson` LIMIT 4   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004010s ]
+
+[ 2016-09-26T20:24:27+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004905s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0403s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0033s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.205065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.205233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003483s ]
+
+[ 2016-09-26T20:32:39+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003427s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0418s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0094s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.205274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.205429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003251s ]
+
+[ 2016-09-26T20:32:48+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005435s ]
+
+[ 2016-09-26T20:35:28+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003754s ]
+
+[ 2016-09-26T20:42:58+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002992s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0403s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','aaaaa','sw','2016-09-26 20:42:58') [ RunTime:0.0092s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0014s ]
+
+[ 2016-09-26T20:47:25+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003633s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0557s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0095s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.212226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.212381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002822s ]
+
+[ 2016-09-26T20:48:21+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0454s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0091s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.226212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004488s ]
+
+[ 2016-09-26T20:50:27+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003769s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0425s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','sd','sw','2016-09-26 20:50:27') [ RunTime:0.0033s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0014s ]
+
+[ 2016-09-26T20:55:06+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003658s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0562s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0095s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0319s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.224907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.225078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003217s ]
+
+[ 2016-09-26T20:55:13+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005511s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0440s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','sb','sw','2016-09-26 20:55:13') [ RunTime:0.0123s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0015s ]
+
+[ 2016-09-26T20:56:54+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004352s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0438s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','sbsss','sw','2016-09-26 20:56:54') [ RunTime:0.0127s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0016s ]
+
+[ 2016-09-26T20:59:03+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003313s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0461s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','sbssssad','sw','2016-09-26 20:59:03') [ RunTime:0.0093s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0018s ]
+
+[ 2016-09-26T20:59:05+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003527s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0456s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0091s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003837s ]
+
+[ 2016-09-26T20:59:13+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003677s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0431s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','wo ai ni','sw','2016-09-26 20:59:13') [ RunTime:0.0092s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0016s ]
+
+[ 2016-09-26T21:01:39+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003883s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0596s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0096s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0319s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.230537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.230693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003145s ]
+
+[ 2016-09-26T21:01:50+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003991s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0396s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','kkkkkkkkkkkkkkkkkkkkkkkkkkkkkk','sw','2016-09-26 21:01:50') [ RunTime:0.0087s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0016s ]
+
+[ 2016-09-26T21:03:15+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0484s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.231716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.231879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003527s ]
+
+[ 2016-09-26T21:03:36+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003064s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0380s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','kkkjkibuvgk','sw','2016-09-26 21:03:36') [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0017s ]
+
+[ 2016-09-26T21:04:04+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003730s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0484s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0098s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.222313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.222466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003302s ]
+
+[ 2016-09-26T21:04:12+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004374s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0403s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','sssssssssssss','sw','2016-09-26 21:04:12') [ RunTime:0.0092s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0017s ]
+
+[ 2016-09-26T21:06:14+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004502s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0524s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0069s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0454s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.227800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.227960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003635s ]
+
+[ 2016-09-26T21:06:17+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003609s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0447s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','ssads','sw','2016-09-26 21:06:17') [ RunTime:0.0135s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0018s ]
+
+[ 2016-09-26T21:08:28+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004614s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0425s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','ssadsdsasd','sw','2016-09-26 21:08:28') [ RunTime:0.0035s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0018s ]
+
+[ 2016-09-26T21:08:32+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003755s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0549s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0094s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.221742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.221890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002378s ]
+
+[ 2016-09-26T21:08:57+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003997s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0397s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','i love u','sw','2016-09-26 21:08:57') [ RunTime:0.0092s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0017s ]
+
+[ 2016-09-26T21:09:35+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003021s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0430s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004016s ]
+
+[ 2016-09-26T21:09:39+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003740s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0411s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','llooo','sw','2016-09-26 21:09:39') [ RunTime:0.0096s ]
+ERR: Think\Model:Orderby方法不存在！
+
+[ 2016-09-26T21:09:45+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002580s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0384s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','llooo','sw','2016-09-26 21:09:45') [ RunTime:0.0092s ]
+ERR: Think\Model:Orderby方法不存在！
+
+[ 2016-09-26T21:09:57+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002828s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0438s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0091s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002509s ]
+
+[ 2016-09-26T21:10:00+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003033s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0412s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','dasdsadsad','sw','2016-09-26 21:10:00') [ RunTime:0.0092s ]
+ERR: Think\Model:OrderBy方法不存在！
+
+[ 2016-09-26T21:10:14+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002719s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0387s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','dasdsadsaddada','sw','2016-09-26 21:10:14') [ RunTime:0.0089s ]
+ERR: Think\Model:OrderBy方法不存在！
+
+[ 2016-09-26T21:10:45+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002956s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0437s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0092s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003554s ]
+
+[ 2016-09-26T21:10:49+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003974s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0476s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa','sw','2016-09-26 21:10:49') [ RunTime:0.0033s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 ) ORDER BY time desc  [ RunTime:0.0017s ]
+
+[ 2016-09-26T21:11:08+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002552s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0475s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','徐佳佳，你是个傻x','sw','2016-09-26 21:11:08') [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 ) ORDER BY time desc  [ RunTime:0.0018s ]
+
+[ 2016-09-26T21:11:14+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005571s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0411s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('37','的撒撒大网','sw','2016-09-26 21:11:14') [ RunTime:0.0094s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 ) ORDER BY time desc  [ RunTime:0.0019s ]
+
+[ 2016-09-26T21:55:30+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037380s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `news_lesson` LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.561733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.561878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.068315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.068618s ]
+
+[ 2016-09-26T21:55:41+08:00 ] ::1 /fuckabc/index.php/home/video/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003012s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'tpstu'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.275342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.275480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002298s ]
+
+[ 2016-09-26T21:55:41+08:00 ] ::1 /fuckabc/index.php/home/video/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001869s ]
+
+[ 2016-09-26T21:56:37+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002796s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `news_lesson` LIMIT 4   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003580s ]
+
+[ 2016-09-26T21:56:39+08:00 ] ::1 /fuckabc/index.php/home/video/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003135s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0393s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'tpstu'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002460s ]
+
+[ 2016-09-26T21:56:39+08:00 ] ::1 /fuckabc/index.php/home/video/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001755s ]
+
+[ 2016-09-26T22:00:49+08:00 ] ::1 /fuckabc/index.php/home/video/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0539s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'tpstu'  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.419354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.419666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004263s ]
+
+[ 2016-09-26T22:00:50+08:00 ] ::1 /fuckabc/index.php/home/video/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001607s ]
+
+[ 2016-09-26T22:03:15+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003362s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0558s ]
+SQL: SELECT * FROM `news_lesson` LIMIT 4   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004730s ]
+
+[ 2016-09-26T22:03:18+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004241s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0393s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=37 ) [ RunTime:0.0110s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '37' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=37 )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.207410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003194s ]
+
+[ 2016-09-26T22:04:00+08:00 ] ::1 /fuckabc/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002689s ]
+
+[ 2016-09-26T22:04:02+08:00 ] ::1 /fuckabc/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003911s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'sw' AND `password` = 'chen1210' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-09-26T22:04:06+08:00 ] ::1 /fuckabc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0425s ]
+SQL: SELECT * FROM `news_lesson` LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002884s ]
+
+[ 2016-09-26T22:04:08+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002918s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0338s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0094s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003684s ]
+
+[ 2016-09-26T22:04:25+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004659s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0314s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:25') [ RunTime:0.0087s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0015s ]
+
+[ 2016-09-26T22:04:35+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0305s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:35') [ RunTime:0.0032s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0014s ]
+
+[ 2016-09-26T22:04:36+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002284s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0321s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:36') [ RunTime:0.0094s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0017s ]
+
+[ 2016-09-26T22:04:36+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002606s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0176s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:36') [ RunTime:0.0089s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0018s ]
+
+[ 2016-09-26T22:04:36+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002604s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0199s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:36') [ RunTime:0.0088s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0018s ]
+
+[ 2016-09-26T22:04:36+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004354s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0172s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:36') [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0016s ]
+
+[ 2016-09-26T22:04:37+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002511s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0304s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:37') [ RunTime:0.0092s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0019s ]
+
+[ 2016-09-26T22:04:37+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002574s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0205s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:37') [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0020s ]
+
+[ 2016-09-26T22:04:37+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0239s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:37') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0018s ]
+
+[ 2016-09-26T22:04:37+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002922s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0194s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:37') [ RunTime:0.0122s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0019s ]
+
+[ 2016-09-26T22:04:37+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007099s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0167s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:37') [ RunTime:0.0088s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0019s ]
+
+[ 2016-09-26T22:04:37+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002751s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0186s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:37') [ RunTime:0.0089s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0018s ]
+
+[ 2016-09-26T22:04:38+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002917s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0372s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:38') [ RunTime:0.0089s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0019s ]
+
+[ 2016-09-26T22:04:38+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002839s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0190s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:38') [ RunTime:0.0097s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0017s ]
+
+[ 2016-09-26T22:04:38+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003013s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0207s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:38') [ RunTime:0.0035s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0019s ]
+
+[ 2016-09-26T22:04:38+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003218s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0208s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:38') [ RunTime:0.0163s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0021s ]
+
+[ 2016-09-26T22:04:38+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002861s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0191s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:38') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0017s ]
+
+[ 2016-09-26T22:04:38+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003054s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0175s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:38') [ RunTime:0.0088s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0019s ]
+
+[ 2016-09-26T22:04:39+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002667s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0314s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r sb','sw','2016-09-26 22:04:39') [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0019s ]
+
+[ 2016-09-26T22:12:52+08:00 ] ::1 /fuckabc/index.php/home/lesson/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004108s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0348s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`) VALUES ('36','u r my girl.
+','sw','2016-09-26 22:12:52') [ RunTime:0.0110s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0019s ]
+
+[ 2016-09-26T22:16:29+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002895s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0411s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0099s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.214833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.214983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003980s ]
+
+[ 2016-09-26T22:24:29+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.045791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046015s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0458s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0100s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.440157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.440281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.115641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.116001s ]
+
+[ 2016-09-26T22:25:06+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004026s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0411s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0137s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.227000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003989s ]
+
+[ 2016-09-26T22:26:41+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003022s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0469s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0098s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006465s ]
+
+[ 2016-09-26T22:27:13+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003662s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0403s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0098s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007871s ]
+
+[ 2016-09-26T22:27:51+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0607s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0094s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0326s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.207787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005679s ]
+
+[ 2016-09-26T22:29:00+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002933s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0486s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0104s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.191926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.192080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003862s ]
+
+[ 2016-09-26T22:40:14+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003148s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0419s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0095s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.205096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004055s ]
+
+[ 2016-09-26T22:45:31+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002745s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0467s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0097s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.214683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.214831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004149s ]
+
+[ 2016-09-26T22:48:17+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003686s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0455s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0091s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.209935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003990s ]
+
+[ 2016-09-26T22:49:14+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006079s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0399s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0093s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.213196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.213330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002984s ]
+
+[ 2016-09-26T22:49:53+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007343s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0380s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=36 ) [ RunTime:0.0138s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '36' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `news_comment` WHERE ( lesson_id=36 ) ORDER BY time desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: count D:\myweb\fuckabc\Application\Runtime\Cache\Home\75092c0e14c0f8c0890892cf550e0d29.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.206927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005089s ]
+
+[ 2016-09-26T22:50:02+08:00 ] ::1 /fuckabc/index.php/home/lesson/reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004624s ]
+

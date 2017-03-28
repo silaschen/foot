@@ -1,0 +1,76 @@
+[ 2016-08-05T10:16:32+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002588s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.305039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.305239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.034363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004653s ]
+
+[ 2016-08-05T11:11:14+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004345s ]
+
+[ 2016-08-05T16:53:32+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.038520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038674s ]
+NOTIC: [8] Undefined variable: data D:\myweb\tp\Application\Home\Controller\IndexController.class.php 第 8 行.
+
+[ 2016-08-05T16:54:02+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002562s ]
+NOTIC: [8] Undefined variable: data D:\myweb\tp\Application\Home\Controller\IndexController.class.php 第 8 行.
+
+[ 2016-08-05T16:54:02+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002994s ]
+NOTIC: [8] Undefined variable: data D:\myweb\tp\Application\Home\Controller\IndexController.class.php 第 8 行.
+
+[ 2016-08-05T16:54:03+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002792s ]
+NOTIC: [8] Undefined variable: data D:\myweb\tp\Application\Home\Controller\IndexController.class.php 第 8 行.
+
+[ 2016-08-05T16:54:03+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001980s ]
+NOTIC: [8] Undefined variable: data D:\myweb\tp\Application\Home\Controller\IndexController.class.php 第 8 行.
+

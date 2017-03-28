@@ -1,0 +1,55 @@
+<div class="col-md-12 rankdad">
+          <div class="panel panel-default">
+                        <div class="panel-heading">
+                            球队排名管理
+                        </div>
+                        <div class="panel-body">
+
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                           
+                                            <th>id</th>
+                                            <th>clubname</th>
+                                            <th>score</th>
+                                            <th>rank</th>
+                                            <th>operration</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="rank">
+                                    <foreach name="model" item="item">
+                                        <tr uid="{$item.id}">
+                                           
+                                            <td>{$item.id}</td>
+                                            <td>{$item.clubname}</td>
+                                            <td>{$item.score}</td>
+                                            <td>{$item.rank}</td>
+                                            <td><a class="btn btn-info" href="javascript:remove({$item['id']})"><i class=" icon-trash"></i></a>&nbsp<a href="{:U('Rank/addclub',array('id'=>$item['id']))}" class="btn btn-info"><i class="icon-edit"></i></a></td>
+                                        </tr>
+                                     </foreach>
+                                    </tbody>
+                                </table>
+                                {$page}
+                                <a href="{:U('Rank/addclub')}" class="btn btn-info pull-right">Add</a>
+                            </div>
+                        </div>
+                    </div>
+	</div>
+
+
+      <script type="text/javascript">
+      
+function remove(id){
+    var r = confirm("are u sure u wanna delete this club?");
+    if (r == true) {
+         $.post(location.href,{"id":id},function(data){       
+                    if (data.ret == 1) {
+                        //delete the data successfully
+                        $("tr[uid='"+data.id+"']").remove();
+                    }
+            },'JSON');
+    }  
+}
+    
+  </script>

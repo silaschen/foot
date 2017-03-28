@@ -1,0 +1,426 @@
+[ 2016-11-01T15:56:34+08:00 ] ::1 /football/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-11-01T15:57:48+08:00 ] ::1 /football/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: view D:\TSW\Football\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\TSW\Football\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\TSW\Football\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-01T15:58:00+08:00 ] ::1 /football/index.php/home/picnews/view/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=2 ) [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: addtime D:\TSW\Football\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-01T15:58:08+08:00 ] ::1 /football/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: view D:\TSW\Football\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\TSW\Football\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\TSW\Football\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-01T15:58:10+08:00 ] ::1 /football/index.php/home/index/rankcsl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-01T15:58:14+08:00 ] ::1 /football/index.php/home/index/donate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-01T15:58:14+08:00 ] ::1 /football/index.php/home/index/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-01T15:58:14+08:00 ] ::1 /football/index.php/home/index/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-01T15:58:18+08:00 ] ::1 /football/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: view D:\TSW\Football\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\TSW\Football\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\TSW\Football\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-01T16:00:02+08:00 ] ::1 /football/index.php/home/lesson/view/id/53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0080s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=53 ) [ RunTime:0.0080s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '53' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 53 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 5 AND `lesson_id` = 53 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 13 AND `lesson_id` = 53 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 12 AND `lesson_id` = 53 ORDER BY time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 11 AND `lesson_id` = 53 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 6 AND `lesson_id` = 53 ORDER BY time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 53 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 53 AND `pid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 53 AND `pid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-01T16:00:08+08:00 ] ::1 /football/index.php/home/video/play/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `news_video` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_videocomment` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news_videocomment` WHERE `videoid` = 17 AND `pid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_videocomment` WHERE `videoid` = 17 AND `pid` = 9  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: level3 D:\TSW\Football\Application\Runtime\Cache\Home\3962c1439881f76e0b56ff4f1dff9f00.php 第 117 行.
+NOTIC: [8] Undefined variable: level3 D:\TSW\Football\Application\Runtime\Cache\Home\3962c1439881f76e0b56ff4f1dff9f00.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-01T16:00:08+08:00 ] ::1 /football/index.php/home/video/play/id/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-01T16:00:09+08:00 ] ::1 /football/index.php/home/video/play/id/dabsal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+
+[ 2016-11-01T16:00:10+08:00 ] ::1 /football/index.php/home/video/play/id/dabsal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+
+[ 2016-11-01T16:00:11+08:00 ] ::1 /football/index.php/home/video/play/id/dabsal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+
+[ 2016-11-01T16:00:13+08:00 ] ::1 /football/index.php/home/video/play/id/dabsal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+
+[ 2016-11-01T16:00:18+08:00 ] ::1 /football/index.php/home/video/play/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `news_video` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_videocomment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news_videocomment` WHERE `videoid` = 17 AND `pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_videocomment` WHERE `videoid` = 17 AND `pid` = 9  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: level3 D:\TSW\Football\Application\Runtime\Cache\Home\3962c1439881f76e0b56ff4f1dff9f00.php 第 117 行.
+NOTIC: [8] Undefined variable: level3 D:\TSW\Football\Application\Runtime\Cache\Home\3962c1439881f76e0b56ff4f1dff9f00.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-01T16:00:18+08:00 ] ::1 /football/index.php/home/video/play/id/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-01T16:00:20+08:00 ] ::1 /football/index.php/home/video/play/id/dabsal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+
+[ 2016-11-01T16:00:21+08:00 ] ::1 /football/index.php/home/video/play/id/dabsal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+
+[ 2016-11-01T16:00:22+08:00 ] ::1 /football/index.php/home/video/play/id/dabsal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+
+[ 2016-11-01T16:00:23+08:00 ] ::1 /football/index.php/home/video/play/id/dabsal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+ERR: 1054:Unknown column 'dabsal' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=dabsal ) LIMIT 1  
+
+[ 2016-11-01T16:08:02+08:00 ] ::1 /football/index.php/home/video/play/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'chensiweimy'@'localhost' (using password: YES)
+

@@ -1,0 +1,596 @@
+[ 2016-10-29T17:05:26+08:00 ] ::1 /Zuqiuweb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.059809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.060470s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0827s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0877s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0574s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0546s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002610s ]
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.936258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.936538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.041566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.070732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.072011s ]
+
+[ 2016-10-29T20:01:49+08:00 ] ::1 /Zuqiuweb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.043237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043467s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0493s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0649s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0517s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002447s ]
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.655586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.655824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.031777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.067560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.067865s ]
+
+[ 2016-10-29T20:54:53+08:00 ] ::1 /Zuqiuweb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002392s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0297s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000525s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.281035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.281340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006209s ]
+
+[ 2016-10-29T20:55:28+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002907s ]
+NOTIC: [8] Undefined index: id D:\myweb\Zuqiuweb\Application\Home\Controller\VideoController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0305s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id= ) LIMIT 1  
+
+[ 2016-10-29T20:55:29+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+NOTIC: [8] Undefined index: id D:\myweb\Zuqiuweb\Application\Home\Controller\VideoController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0297s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id= ) LIMIT 1  
+
+[ 2016-10-29T20:57:05+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003798s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `news_video` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_videocomment` [ RunTime:0.0597s ]
+SQL: SELECT * FROM `news_videocomment` WHERE `videoid` = 18 AND `pid` = 0  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000665s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\3962c1439881f76e0b56ff4f1dff9f00.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.340841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.341111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008092s ]
+
+[ 2016-10-29T20:57:05+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play/id/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000279s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013974s ]
+
+[ 2016-10-29T20:57:06+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play/id/adsas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0432s ]
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+
+[ 2016-10-29T20:57:07+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play/id/adsas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003543s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0303s ]
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+
+[ 2016-10-29T20:57:07+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play/id/adsas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002563s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0134s ]
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+
+[ 2016-10-29T20:57:07+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play/id/adsas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002803s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0159s ]
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+
+[ 2016-10-29T20:57:59+08:00 ] ::1 /Zuqiuweb/index.php/home/video/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002182s ]
+SQL: SHOW COLUMNS FROM `news_videocomment` [ RunTime:0.0312s ]
+ERR: 1048:Column 'editor' cannot be null
+ [ SQL语句 ] : INSERT INTO `news_videocomment` (`pid`,`videoid`,`content`,`time`,`editor`) VALUES ('0','18','ebuyweguyiaw','2016-10-29 20:57:59',NULL)
+ERR: 1048:Column 'editor' cannot be null
+ [ SQL语句 ] : INSERT INTO `news_videocomment` (`pid`,`videoid`,`content`,`time`,`editor`) VALUES ('0','18','ebuyweguyiaw','2016-10-29 20:57:59',NULL)
+
+[ 2016-10-29T20:58:01+08:00 ] ::1 /Zuqiuweb/index.php/home/video/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+SQL: SHOW COLUMNS FROM `news_videocomment` [ RunTime:0.0281s ]
+ERR: 1048:Column 'editor' cannot be null
+ [ SQL语句 ] : INSERT INTO `news_videocomment` (`pid`,`videoid`,`content`,`time`,`editor`) VALUES ('0','18','ebuyweguyiaw','2016-10-29 20:58:01',NULL)
+ERR: 1048:Column 'editor' cannot be null
+ [ SQL语句 ] : INSERT INTO `news_videocomment` (`pid`,`videoid`,`content`,`time`,`editor`) VALUES ('0','18','ebuyweguyiaw','2016-10-29 20:58:01',NULL)
+
+[ 2016-10-29T20:58:04+08:00 ] ::1 /Zuqiuweb/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002321s ]
+
+[ 2016-10-29T20:58:07+08:00 ] ::1 /Zuqiuweb/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002456s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0498s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-29T20:58:18+08:00 ] ::1 /Zuqiuweb/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = 'chen1210' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-10-29T20:59:01+08:00 ] ::1 /Zuqiuweb/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002445s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-10-29T20:59:05+08:00 ] ::1 /Zuqiuweb/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003582s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000602s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.304896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.305153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005614s ]
+
+[ 2016-10-29T20:59:11+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004194s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `news_video` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_videocomment` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `news_videocomment` WHERE `videoid` = 18 AND `pid` = 0  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000803s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\3962c1439881f76e0b56ff4f1dff9f00.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.249584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.249898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009024s ]
+
+[ 2016-10-29T20:59:11+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play/id/img/pay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+
+[ 2016-10-29T20:59:12+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play/id/adsas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002548s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0301s ]
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+
+[ 2016-10-29T20:59:12+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play/id/adsas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0152s ]
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+
+[ 2016-10-29T20:59:12+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play/id/adsas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0171s ]
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+
+[ 2016-10-29T20:59:12+08:00 ] ::1 /Zuqiuweb/index.php/home/video/play/id/adsas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004452s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0211s ]
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+ERR: 1054:Unknown column 'adsas' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `news_video` WHERE ( id=adsas ) LIMIT 1  
+
+[ 2016-10-29T20:59:15+08:00 ] ::1 /Zuqiuweb/index.php/home/video/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003346s ]
+SQL: SHOW COLUMNS FROM `news_videocomment` [ RunTime:0.0324s ]
+SQL: INSERT INTO `news_videocomment` (`pid`,`videoid`,`content`,`time`,`editor`) VALUES ('0','18','sasda','2016-10-29 20:59:15','admin') [ RunTime:0.0100s ]
+
+[ 2016-10-29T21:00:09+08:00 ] ::1 /Zuqiuweb/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004243s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000597s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000873s ]
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.286648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.286897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003890s ]
+
+[ 2016-10-29T21:00:43+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/view/id/53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003593s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0309s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=53 ) [ RunTime:0.0102s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '53' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 53 ORDER BY time desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 5 AND `lesson_id` = 53 ORDER BY time desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 6 AND `lesson_id` = 53 ORDER BY time desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000425s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000692s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 53 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 53 AND `pid` = 5 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 53 AND `pid` = 6 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.275301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.275538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003426s ]
+
+[ 2016-10-29T21:00:49+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002498s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0200s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`,`pid`) VALUES ('53','sdsad','admin','2016-10-29 21:00:49','5') [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 53 AND `pid` = 5 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-10-29T21:00:54+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002343s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0196s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`,`pid`) VALUES ('53','sas1','admin','2016-10-29 21:00:54','5') [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 53 AND `pid` = 5 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-10-29T21:01:10+08:00 ] ::1 /Zuqiuweb/index.php/home/lesson/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002338s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `news_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0198s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`,`pid`) VALUES ('53','ghty','admin','2016-10-29 21:01:10','5') [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 53 AND `pid` = 5 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-10-29T21:01:32+08:00 ] ::1 /Zuqiuweb/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003496s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000565s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\Zuqiuweb\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.289455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.289746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003736s ]
+

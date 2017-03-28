@@ -1,0 +1,2184 @@
+[ 2016-10-08T12:17:56+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019204s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015781s ]
+
+[ 2016-10-08T12:18:04+08:00 ] ::1 /fuckabc/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-10-08T12:18:07+08:00 ] ::1 /fuckabc/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0257s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'xujiajia' AND `password` = 'chen1210' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-08T12:18:08+08:00 ] ::1 /fuckabc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2016-10-08T12:18:19+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0269s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=8 ) [ RunTime:0.0110s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 263 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 272 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 266 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 265 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 264 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 254 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 273 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 269 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 268 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 267 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 260 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 255 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 252 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 271 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 270 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 262 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 261 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 253 AND `lesson_id` = 8 ORDER BY time desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 8 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 8 AND `pid` = 263 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 8 AND `pid` = 254 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 8 AND `pid` = 252 LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002102s ]
+
+[ 2016-10-08T12:18:26+08:00 ] ::1 /fuckabc/index.php/home/lesson/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0267s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`,`pid`) VALUES ('8','asdasd','xujiajia','2016-10-08 12:18:25','252') [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 8 AND `pid` = 252 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-10-08T12:18:43+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-10-08T12:24:59+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002354s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0306s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001715s ]
+
+[ 2016-10-08T12:30:21+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003147s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2016-10-08T12:32:51+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002018s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2016-10-08T12:32:51+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2016-10-08T12:34:05+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002399s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2016-10-08T12:35:13+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001872s ]
+
+[ 2016-10-08T12:37:09+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001688s ]
+
+[ 2016-10-08T12:40:16+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003028s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0314s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2016-10-08T12:40:55+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001984s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0474s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002630s ]
+
+[ 2016-10-08T12:41:04+08:00 ] ::1 /fuckabc/index.php/home/lesson/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
+
+[ 2016-10-08T12:43:09+08:00 ] ::1 /fuckabc/index.php/home/lesson/addessay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002813s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0261s ]
+SQL: INSERT INTO `news_lesson` (`title`,`description`,`content`,`tag`,`editor`,`addtime`) VALUES ('国足12强赛出线形势分析','出乎不少人的意料，国足在６日晚１２强赛与叙利亚队的比赛中没有拿到哪怕一个积分。本来与本场对手同为一平一负的中国队，赛后不仅被叙利亚队拉开差距，与Ａ组垫底的卡塔尔队也只有１分之差。','<p>新华社西安１０月６日体育专电（记者郑昕、郑道锦）出乎不少人的意料，国足在６日晚１２强赛与叙利亚队的比赛中没有拿到哪怕一个积分。本来与本场对手同为一平一负的中国队，赛后不仅被叙利亚队拉开差距，与Ａ组垫底的卡塔尔队也只有１分之差。虽然再次遗憾收场，但国足并未完全丧失机会，不过之后的七轮比赛已不可再有半点闪失。特别是国足下一轮与乌兹别克斯坦队的比赛，就将是名副其实的生死战。</p>
+
+<p>　　与中叙之战同日进行的Ａ组另外两场比赛，韩国队在主场以３：２逆转卡塔尔队，伊朗队则依靠侯赛尼的进球以１：０拿下此前不败的乌兹别克斯坦队。三轮战罢，韩国队与伊朗队以两胜一平的战绩并列榜首，乌兹别克斯坦队积６分，拿到本次１２强赛首场胜利的叙利亚队则取得４分，４０强赛时同处一组的中国队与卡塔尔队这难兄难弟分别以１分和０分排在第五、六位。</p>
+
+<p>　　按照每小组前两名直接晋级世界杯正赛、第三名进入附加赛的本次１２强赛出线规则，目前国足即使距离第三名也已被拉大到５分的差距，距离榜首更是差了两场胜仗。由此看来，球队目前的出线形势万分严峻。</p>
+
+<p>　　本轮伊朗队客场小胜乌兹别克斯坦队，对国足来说算得上一个小小利好。毕竟从抽签后的小组形势来讲，实力明显高出其他４队一筹的韩、伊是前两名的有力争夺者，然而起初领跑的却是两战全胜的乌兹别克斯坦队。对国足来说，争取第三名的附加赛资格无疑比取得前两名更实际，因此乌兹别克斯坦队被拖住，中国队就还有把命运掌握在自己手中的机会。</p>
+
+<p>　　因而，１１日晚中国队客场挑战乌兹别克斯坦队的比赛，就将是国足在此次１２强赛上的&ldquo;生死战&rdquo;。若能够取得一场胜利，则将追近与第三名的差距，同时由于时差原因本场比赛的开赛时间将先于其他两场，这也能够给叙利亚等潜在竞争者以压力。更重要的是，取得首胜对于球队的信心恢复和压力释放来说不必多言。</p>
+
+<p>　　但届时若不能取得胜利，即便拿到一分对于国足来说也几乎将陷入万劫不复的深渊。毕竟若在前四轮仅获得１分或２分，则给此后六轮比赛挖下的&ldquo;坑&rdquo;太大了，特别是考虑到还有客战伊朗队等难关，妄想国足此后全胜翻盘太不现实。</p>
+
+<p>　　毕竟，从本身的定位和在之前４０强赛的成绩来看，国足本身就是１２支球队中较弱的一支，违背足球规律在短时间内脱胎换骨的变化不可能发生。接下来的比赛，球队以更加沉稳的心态和更低的姿态一场一场拼下对手、不断收获信心，也是对广大不抛弃不放弃球迷的一种交代和回报。</p>
+','国足 世预赛','xujiajia','2016-10-08 12:43:09') [ RunTime:0.0131s ]
+
+[ 2016-10-08T12:43:10+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0320s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=9 ) [ RunTime:0.0100s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '9' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 9 ORDER BY time desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 9 LIMIT 1   [ RunTime:0.0011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001806s ]
+
+[ 2016-10-08T12:43:23+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001627s ]
+
+[ 2016-10-08T12:43:28+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0242s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=9 ) [ RunTime:0.0101s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-10-08T13:17:33+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002872s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0651s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=9 ) [ RunTime:0.0119s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '9' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 9 ORDER BY time desc  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 9 LIMIT 1   [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002333s ]
+
+[ 2016-10-08T13:17:43+08:00 ] ::1 /fuckabc/index.php/home/lesson/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002871s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0303s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`,`pid`) VALUES ('9','dasdasdasdas','xujiajia','2016-10-08 13:17:43','0') [ RunTime:0.0149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 9 AND `pid` = 0 LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-10-08T13:18:04+08:00 ] ::1 /fuckabc/index.php/home/lesson/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004770s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0432s ]
+SQL: INSERT INTO `news_comment` (`lesson_id`,`content`,`editor`,`time`,`pid`) VALUES ('9','asdcacac','xujiajia','2016-10-08 13:18:04','275') [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 9 AND `pid` = 275 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2016-10-08T13:23:34+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003527s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0477s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=9 ) [ RunTime:0.0045s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '9' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 9 ORDER BY time desc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 275 AND `lesson_id` = 9 ORDER BY time desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 276 AND `lesson_id` = 9 ORDER BY time desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 9 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 9 AND `pid` = 275 LIMIT 1   [ RunTime:0.0017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002181s ]
+
+[ 2016-10-08T13:23:44+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000382s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003280s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007473s ]
+
+[ 2016-10-08T13:23:53+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0333s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=9 ) [ RunTime:0.0094s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-10-08T13:23:53+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0192s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=9 ) [ RunTime:0.0103s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-10-08T13:23:54+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0365s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=9 ) [ RunTime:0.0041s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-10-08T13:23:54+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002298s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0168s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=9 ) [ RunTime:0.0104s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-10-08T13:23:54+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001834s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0197s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=9 ) [ RunTime:0.0099s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-10-08T13:27:30+08:00 ] ::1 /fuckabc/index.php/home/user/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002446s ]
+
+[ 2016-10-08T13:27:30+08:00 ] ::1 /fuckabc/index.php/Home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001859s ]
+
+[ 2016-10-08T13:27:34+08:00 ] ::1 /fuckabc/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003191s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0323s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = 'chen1210' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-10-08T13:27:38+08:00 ] ::1 /fuckabc/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003104s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0401s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-08T13:27:39+08:00 ] ::1 /fuckabc/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0319s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-10-08T13:27:39+08:00 ] ::1 /fuckabc/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002755s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-10-08T13:27:40+08:00 ] ::1 /fuckabc/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-10-08T13:27:58+08:00 ] ::1 /fuckabc/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-08T13:27:59+08:00 ] ::1 /fuckabc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0699s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001849s ]
+
+[ 2016-10-08T13:28:04+08:00 ] ::1 /fuckabc/index.php/home/lesson/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002336s ]
+
+[ 2016-10-08T13:29:41+08:00 ] ::1 /fuckabc/index.php/home/lesson/addessay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002885s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0404s ]
+SQL: INSERT INTO `news_lesson` (`title`,`description`,`content`,`tag`,`editor`,`addtime`) VALUES ('戏谑的段子与残酷的现实','无论何时何地，只要有国足出现的地方，总少不了各种“段子”——比如：中国足球队，专业输球３０年，一直被模仿，从未被超越。再比如，国足甫一进入１２强赛，就有了赛事“预测”：第一场虽败犹荣，第二场主场惜平，第三场功亏一篑，第四场生死大战，第五场理论出线，第六场遗憾出局，第七场荣誉大战，第八场左右大局，第九场下届练兵，第十场看到希望。','<p>　新华社记者公兵</p>
+
+<p>　　无论何时何地，只要有国足出现的地方，总少不了各种&ldquo;段子&rdquo;&mdash;&mdash;比如：中国足球队，专业输球３０年，一直被模仿，从未被超越。再比如，国足甫一进入１２强赛，就有了赛事&ldquo;预测&rdquo;：第一场虽败犹荣，第二场主场惜平，第三场功亏一篑，第四场生死大战，第五场理论出线，第六场遗憾出局，第七场荣誉大战，第八场左右大局，第九场下届练兵，第十场看到希望。</p>
+
+<p>　　这当然是对国足的揶揄，也肯定有拳拳期盼。我们当然不希望上述&ldquo;预测&rdquo;一语成谶，但是，从国足１２强赛目前的走势来看，&ldquo;预测&rdquo;的内容却一再得到印证&mdash;&mdash;第一场虽败韩国犹荣，第二场的确惜平伊朗，第三场一球落后叙利亚国足再难组织成像样的进攻&hellip;&hellip;</p>
+
+<p>国足的高关注度注定令其成为球迷的话题甚至是社会的话题，这就决定了国足或时刻与批评相伴，当然也不乏赞誉之声。比如高洪波临危受命带领国足闯入１２强赛，虽有运气因素，但主流的声音还是赞誉。中叙之战后，球迷&ldquo;退钱&rdquo;、&ldquo;下课&rdquo;、&ldquo;感到愤怒&rdquo;、&ldquo;（３场过后）已经结束了&rdquo;的诟病之声顿起，其实就反映了国足的话题属性。国足打得不好，球迷宣泄实属正常，有些极端情绪可以理解，毕竟有的球迷打着&ldquo;飞的&rdquo;来到西安，花了住宿费，还花了球票钱，甚至有人买的还是高价票，却没想到国足在福地西安的不败金身告破，个中窝火之情可以理解。只是，类似的情况其实已经很多，难道２０１３年１：５输给泰国那场比赛不比这场更虐心？或许，经历了多次苦痛后，对国足实力有正确了解的球迷，把心态稍微放平一些也未尝不可。</p>
+
+<p>　　其实想想看，在国足还在４０强赛挣扎的时候，你真的对国足晋级１２强赛有很强的信心吗？我相信９０％的球迷会持否定答案。事实也证明，国足是在最后一轮战胜了卡塔尔、且满足了若干&ldquo;条件&rdquo;之后才&ldquo;挤&rdquo;进１２强赛的，而且忝列１２强末座，这才是国足真正的实力。但是，随着１５年后终于再次进入世预赛亚洲区最后阶段，随着１２强赛战火燃起，不少人包括业界人士对国足１２强赛小组出线的信心莫名地变得很足，这种盲目的乐观情绪不断蔓延，一定程度上影响了球队。就在中叙之战前，针对本场以及中国与乌兹别克斯坦比赛制订了取４分的目标，这显然过于乐观。制订这样的目标显然是基于叙利亚是一支弱队的判断，如果仅仅看交手成绩和世界排名，我们的确占据优势，但是从叙利亚逼平韩国、中叙之战表现出的极其扎实的防守、犀利的进攻上不难看出，这支球队的实力并不弱。其实这一点国足主教练高洪波在赛前发布会上也提到了：或许叙利亚还认为我们是一支弱队。同时，&ldquo;中亚狼&rdquo;乌兹别克斯坦前两轮两战全胜，国足与其历史对战成绩不占优势，马上面临的比赛又是客场，谁说国足一定能从乌兹别克斯坦身上取分？但是取４分的目标又是怎么制订出来的呢？</p>
+
+<p>　　除了目标不切实际，高洪波在比赛中的确存在一些疑问手，比如阵型的选择，３中卫到目前来看并不算成功，再者沿用门将顾超不知出于怎样的考虑？笔者一向不愿对教练的排兵布阵多做评价，因为每个教练都有自己的技战术体系，这里提出来的确是认为有些问题值得商榷。</p>
+
+<p>　　三轮过后，国足仅积１分，与三战皆墨的卡塔尔成了难兄难弟，而伊朗、韩国均积７分，乌兹别克斯坦拿到６分，叙利亚也有４分，已渐渐将国足甩在身后，这也意味着国足此后仗仗艰险，势必需要拿出１２０％的努力。不过，想想４０强赛国足的历程，１２强赛还有７场，国足的机会并非完全破灭。高洪波说，尽快忘掉失利，准备后面的比赛。中国足协执委于洪臣说，还有７场比赛，我们要全力以赴、永不放弃。只要有一线希望，整个团队都会尽１００％的努力去争取。</p>
+
+<p>　　国足的失利令人扼腕，但是扼腕的同时更要看清国足的实力本就如此。有球迷在难受之余说，可能本身国足的实力也就那样。而实力如此反映出的更深的问题则是以往存在违反规律的种种错误之举，如豪赌国家队，杀鸡取卵、寅吃卯粮，以大打小、更改年龄，无视青少年培养等。尤其在青少年培养上，职业联赛球员身价虚高就是人才匮乏最明显的例证。而且青少年培养目前在有些俱乐部依然得不到重视，而体育教育部门在注册体系的打通上存在障碍同样也是问题之一。</p>
+
+<p>　　对待国足，我们不要奢望，但也不要绝望。可以批评，更要鼓励和支持。生活还要继续，国足也终会有崛起之日。</p>
+
+<p>加油。</p>
+','国足 段子','admin','2016-10-08 13:29:41') [ RunTime:0.0100s ]
+
+[ 2016-10-08T13:29:43+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0684s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=10 ) [ RunTime:0.0130s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '10' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 10 ORDER BY time desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 10 LIMIT 1   [ RunTime:0.0015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002659s ]
+
+[ 2016-10-08T13:29:45+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001920s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0545s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2016-10-08T13:29:50+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0583s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=10 ) [ RunTime:0.0117s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '10' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 10 ORDER BY time desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 10 LIMIT 1   [ RunTime:0.0014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002620s ]
+
+[ 2016-10-08T13:29:59+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002863s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0618s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002069s ]
+
+[ 2016-10-08T13:30:04+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0865s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=10 ) [ RunTime:0.0044s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '10' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 10 ORDER BY time desc  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 10 LIMIT 1   [ RunTime:0.0012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002260s ]
+
+[ 2016-10-08T13:31:17+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005300s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0383s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=10 ) [ RunTime:0.0056s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '10' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 10 ORDER BY time desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 10 LIMIT 1   [ RunTime:0.0014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002910s ]
+
+[ 2016-10-08T13:33:46+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0725s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002724s ]
+
+[ 2016-10-08T13:35:51+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004559s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0553s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002670s ]
+
+[ 2016-10-08T13:37:23+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004375s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006202s ]
+
+[ 2016-10-08T13:37:25+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001974s ]
+
+[ 2016-10-08T13:37:25+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002054s ]
+
+[ 2016-10-08T13:37:26+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002596s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001889s ]
+
+[ 2016-10-08T13:37:27+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002063s ]
+
+[ 2016-10-08T13:37:28+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0481s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001963s ]
+
+[ 2016-10-08T13:37:28+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002085s ]
+
+[ 2016-10-08T13:37:29+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0318s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001845s ]
+
+[ 2016-10-08T13:37:30+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0329s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2016-10-08T13:37:30+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2016-10-08T13:37:32+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001856s ]
+
+[ 2016-10-08T13:37:37+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0594s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001780s ]
+
+[ 2016-10-08T13:37:47+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000532s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003187s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002267s ]
+
+[ 2016-10-08T13:37:57+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002666s ]
+
+[ 2016-10-08T13:38:38+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0531s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002040s ]
+
+[ 2016-10-08T13:38:41+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012440s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002964s ]
+
+[ 2016-10-08T13:38:43+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0881s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002126s ]
+
+[ 2016-10-08T13:39:29+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004937s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0699s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002831s ]
+
+[ 2016-10-08T13:39:32+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0381s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002940s ]
+
+[ 2016-10-08T13:39:34+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0424s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002146s ]
+
+[ 2016-10-08T13:40:03+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001801s ]
+
+[ 2016-10-08T13:41:08+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0577s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002401s ]
+
+[ 2016-10-08T13:41:39+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002515s ]
+
+[ 2016-10-08T13:41:42+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0324s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=10 ) [ RunTime:0.0098s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-10-08T13:41:43+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0434s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=10 ) [ RunTime:0.0096s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-08T13:41:44+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0911s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=9 ) [ RunTime:0.0097s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-10-08T13:41:44+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0330s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=9 ) [ RunTime:0.0093s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-08T13:41:45+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0301s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=10 ) [ RunTime:0.0092s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-10-08T13:41:46+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.1513s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=10 ) [ RunTime:0.0048s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2016-10-08T13:41:47+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004328s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0500s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=10 ) [ RunTime:0.0121s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-10-08T13:41:47+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001856s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0467s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=10 ) [ RunTime:0.0100s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-08T13:41:47+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0285s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=10 ) [ RunTime:0.0049s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-08T13:41:47+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002200s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0277s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=10 ) [ RunTime:0.0097s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-10-08T13:41:48+08:00 ] ::1 /fuckabc/index.php/home/lesson/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0542s ]
+SQL: UPDATE `news_lesson` SET `zan`=zan+1 WHERE ( id=10 ) [ RunTime:0.0045s ]
+SQL: SELECT `zan` FROM `news_lesson` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-10-08T17:33:14+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002763s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002795s ]
+
+[ 2016-10-08T17:33:50+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003387s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002571s ]
+
+[ 2016-10-08T17:34:06+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004394s ]
+
+[ 2016-10-08T17:34:32+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0523s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004193s ]
+
+[ 2016-10-08T17:35:21+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002214s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002405s ]
+
+[ 2016-10-08T17:36:03+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003140s ]
+
+[ 2016-10-08T17:38:17+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003021s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0417s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002243s ]
+
+[ 2016-10-08T17:38:34+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015606s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002365s ]
+
+[ 2016-10-08T17:38:58+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002713s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003815s ]
+
+[ 2016-10-08T17:40:50+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003250s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003770s ]
+
+[ 2016-10-08T17:44:05+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003104s ]
+
+[ 2016-10-08T17:47:14+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002622s ]
+
+[ 2016-10-08T17:47:40+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003171s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004603s ]
+
+[ 2016-10-08T17:48:11+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004299s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003437s ]
+
+[ 2016-10-08T17:48:57+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001780s ]
+
+[ 2016-10-08T17:49:03+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0492s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002006s ]
+
+[ 2016-10-08T17:49:30+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0568s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002183s ]
+
+[ 2016-10-08T17:50:20+08:00 ] ::1 /fuckabc/index.php/home/lesson/view/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003667s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0314s ]
+SQL: UPDATE `news_lesson` SET `view`=view+1 WHERE ( id=10 ) [ RunTime:0.0046s ]
+SQL: SELECT * FROM `news_lesson` WHERE `id` = '10' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0306s ]
+SQL: SELECT * FROM `news_comment` WHERE `pid` = 0 AND `lesson_id` = 10 ORDER BY time desc  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 10 LIMIT 1   [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003410s ]
+
+[ 2016-10-08T18:02:34+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002086s ]
+
+[ 2016-10-08T18:03:14+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002625s ]
+
+[ 2016-10-08T18:03:30+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2016-10-08T18:04:23+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002695s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002670s ]
+
+[ 2016-10-08T18:04:54+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003432s ]
+
+[ 2016-10-08T18:05:42+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003046s ]
+
+[ 2016-10-08T18:07:07+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002189s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002575s ]
+
+[ 2016-10-08T22:34:54+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002462s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0513s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.225346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.225496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005518s ]
+
+[ 2016-10-08T23:49:44+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002668s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004354s ]
+

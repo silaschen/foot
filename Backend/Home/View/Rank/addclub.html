@@ -1,0 +1,71 @@
+<div class="col-md-12">
+		<form id="form">
+		<input type="hidden" name="id" value="{$info.id }">
+				<div class="form-group">
+				<label>club name</label>
+					<input type="text" name="clubname" class="form-control" value="{$info.clubname}" placeholder="俱乐部名字">
+				</div>	
+				<div class="form-group">
+				<label>rank</label>
+					<input type="text" name="rank" class="form-control" value="{$info.rank}" placeholder="rank now">
+				</div>
+				<div class="form-group">
+				<LABEL>MATCH</LABEL>
+					<input type="text" name="matchtime" class="form-control" value="{$info.matchtime}" placeholder="比赛场数">
+				</div>
+				<div class="form-group">
+					<label>win num</label>
+					<input type="text" name="wintime" class="form-control" value="{$info.wintime}" placeholder="赢球场数">
+				</div>
+				<div class="form-group">
+				<label>defeated</label>
+					<input type="text" name="defeattime" class="form-control" value="{$info.defeattime}" placeholder="输球场数">
+				</div>
+				<div class="form-group">
+					<input type="text" name="ping" class="form-control" value="{$info.ping}" placeholder="平局场数">
+				</div>
+				<div class="form-group">
+				<label>goal</label>
+					<input type="text" name="shotgo" class="form-control" value="{$info.shotgo}" placeholder="进球数">
+				</div>
+				<div class="form-group">
+				<label>diuqiu</label>
+					<input type="text" name="shotoff" class="form-control" value="{$info.shotoff}" placeholder="丢球数">
+				</div>
+				
+				<div class="form-group">
+					<a class="btn btn-success pull-right" href="javascript:saveclub()">添加</a>
+				</div>
+
+
+		</form>
+		<script type="text/javascript">
+				function saveclub(){
+					var name = $("input[name='clubname']").val();
+					if (name == "") {
+						alert("pls input a name");
+						return false;
+					}
+
+					$.post(location.href,$("#form").serializeArray(),function(data){
+							alert(data.msg);
+							if (data.ret == 1) {
+
+								location.href = "{:U('Rank/index')}";
+							}
+
+
+
+
+					},'JSON');
+
+
+
+				}
+
+
+
+
+		</script>
+
+</div>

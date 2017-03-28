@@ -1,0 +1,9 @@
+[ 2016-08-10T18:38:35+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004281s ]
+NOTIC: [8] Undefined variable: data D:\myweb\fuckabc\Application\Home\Controller\IndexController.class.php 第 8 行.
+

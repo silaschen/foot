@@ -1,0 +1,6 @@
+[ 2016-10-17T15:30:17+08:00 ] ::1 /fuckabc/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001874s ]
+ERR: 无法加载模块:Favicon
+

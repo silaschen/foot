@@ -1,0 +1,65 @@
+	<div class="col-md-12">
+					<form id="csw" >
+             
+					<div class="form-group kk" qid="1">
+             						 <label>who is sb?</label>
+									<input type="radio" name="1" class="form-control" value="1">yaoming
+									<input type="radio" name="1" class="form-control" value="2">james
+									<input type="radio" name="1" class="form-control" value="3">kobe
+
+
+							</div>
+			
+
+
+					<div class="form-group kk" qid="2">
+             						 <label>who is singer?</label>
+									<input type="radio" name="2" class="form-control" value="1">yaoming
+									<input type="radio" name="2" class="form-control" value="2">james
+									<input type="radio" name="2" class="form-control" value="3">kobe
+
+
+							</div>
+
+								<div class="form-group kk" qid="3">
+             						 <label>wt to eat?</label>
+									<input type="radio" name="3" class="form-control" value="1">apple
+									<input type="radio" name="3" class="form-control" value="3">peer
+									<input type="radio" name="3" class="form-control" value="3">watermelon
+
+
+							</div>
+			
+
+								<div class="form-group">
+									<a class="btn btn-info fb">发表</a>
+
+					</form>
+
+
+
+		</div>
+
+		<script type="text/javascript">
+			
+				$(".fb").click(function(){
+					$(".kk").each(function(key,obj){
+						var qid = $(obj).attr("qid");
+
+						var r =$(obj).children("input[name='"+qid+"']").attr("checked");
+						if (r == false) {
+							alert("pls do all the problem");
+						}
+
+					});
+					var a=$("#csw").serializeArray();
+					$.post(location.href,{"data":a},function(data){
+						alert("ur score is"+data.score+"error number is");
+
+
+					});
+
+
+				});
+
+		</script>

@@ -1,0 +1,10 @@
+[ 2016-11-04T08:40:57+08:00 ] 120.195.137.162 /index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'xujiajia' AND `password` = 'chen1210' LIMIT 1   [ RunTime:0.0000s ]
+

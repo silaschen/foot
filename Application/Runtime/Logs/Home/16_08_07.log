@@ -1,0 +1,27 @@
+[ 2016-08-07T09:45:20+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.062102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.049031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.049229s ]
+NOTIC: [8] Undefined variable: data D:\myweb\tp\Application\Home\Controller\IndexController.class.php 第 8 行.
+
+[ 2016-08-07T13:04:58+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.051498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.051734s ]
+NOTIC: [8] Undefined variable: data D:\myweb\tp\Application\Home\Controller\IndexController.class.php 第 8 行.
+
+[ 2016-08-07T20:07:21+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.083878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.084091s ]
+NOTIC: [8] Undefined variable: data D:\myweb\tp\Application\Home\Controller\IndexController.class.php 第 8 行.
+

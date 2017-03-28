@@ -1,0 +1,47 @@
+
+		<div class="col-md-12">
+					<form  action="{:U('Access/accessuser')}" method="POST">
+          <input type="hidden" name="user_id" value="{$uid}">
+          <foreach name="access" item="arr">
+              
+						
+              
+									<input type="checkbox" name="role_id[]"  value="{$arr.id}">{$arr.name}&nbsp
+
+
+						
+						
+              
+
+                
+
+              </foreach>
+             
+
+        
+        </div>
+
+
+								<div class="form-group">
+									<button class="btn btn-info" onclick="$('#node').submit()">submit</button>
+
+					</form>
+
+
+
+		</div>
+
+    <script type="text/javascript">
+      // $("input:checkbox[value='2']").prop("checked",'true');
+    var role = {$have};
+      $.each(role,function(key,obj){
+
+
+         $("input:checkbox[value='"+obj.role_id+"']").prop("checked",'true');
+
+
+      });
+     
+
+    </script>
+  

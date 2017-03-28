@@ -1,0 +1,12 @@
+[ 2016-11-07T03:20:50+08:00 ] 38.100.21.67 /index.php/v/picnews/view/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:V
+
+[ 2016-11-07T03:20:58+08:00 ] 38.100.21.67 /index.php/v/picnews/view/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:V
+

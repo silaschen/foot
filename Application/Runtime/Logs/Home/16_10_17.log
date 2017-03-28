@@ -1,0 +1,974 @@
+[ 2016-10-17T14:11:40+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.044620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044798s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0479s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 406 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.668414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.668554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.030962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.059504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.059755s ]
+
+[ 2016-10-17T14:56:05+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.094719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.086190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.086433s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0939s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0820s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 3   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0602s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006516s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006745s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 406 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.210994s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.211523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.043125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.116662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.116874s ]
+
+[ 2016-10-17T14:57:20+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003072s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.1307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 5 LIMIT 1   [ RunTime:0.0032s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.376527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.376659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002934s ]
+
+[ 2016-10-17T14:57:25+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000478s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 406 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.309621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.309759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001988s ]
+
+[ 2016-10-17T15:04:20+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004810s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0301s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.551599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.551739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007902s ]
+
+[ 2016-10-17T15:05:53+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003137s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002488s ]
+
+[ 2016-10-17T15:07:38+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.328620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.328758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003283s ]
+
+[ 2016-10-17T15:07:39+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=5 ) [ RunTime:0.0257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 5 LIMIT 1   [ RunTime:0.0015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001957s ]
+
+[ 2016-10-17T15:07:42+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=5 ) [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0536s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001918s ]
+
+[ 2016-10-17T15:07:45+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=5 ) [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0345s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 5 LIMIT 1   [ RunTime:0.0012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002431s ]
+
+[ 2016-10-17T15:07:48+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0537s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=5 ) [ RunTime:0.0102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0375s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002173s ]
+
+[ 2016-10-17T15:07:58+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.271084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.271207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003421s ]
+
+[ 2016-10-17T15:08:04+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002371s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=4 ) [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0242s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002794s ]
+
+[ 2016-10-17T15:08:07+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001823s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=4 ) [ RunTime:0.0089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 4 LIMIT 1   [ RunTime:0.0009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002323s ]
+
+[ 2016-10-17T15:08:10+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=1 ) [ RunTime:0.0096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001993s ]
+
+[ 2016-10-17T15:08:14+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0241s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.285061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.285196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2016-10-17T15:10:33+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003421s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.291803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.291970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004600s ]
+
+[ 2016-10-17T15:13:26+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.312121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.312256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003279s ]
+
+[ 2016-10-17T15:21:20+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004156s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0691s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0714s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.497367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.497514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007545s ]
+
+[ 2016-10-17T15:27:16+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002741s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 467 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 467 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.344464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.344619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002716s ]
+
+[ 2016-10-17T15:28:06+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 496 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 496 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.311391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.311531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003996s ]
+
+[ 2016-10-17T15:28:46+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003043s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=3 ) [ RunTime:0.0119s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002285s ]
+
+[ 2016-10-17T15:30:05+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=5 ) [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0228s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002989s ]
+
+[ 2016-10-17T15:30:09+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=5 ) [ RunTime:0.0096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 5 LIMIT 1   [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002959s ]
+
+[ 2016-10-17T15:30:14+08:00 ] ::1 /fuckabc/index.php/home/picnews/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0329s ]
+SQL: SELECT * FROM `news_picnews` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `news_picnews` SET `view`=view+1 WHERE ( id=5 ) [ RunTime:0.0097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: addtime D:\myweb\fuckabc\Application\Runtime\Cache\Home\93bc57f45e11a30493cb891e3f47ae63.php 第 99 行.
+SQL: SHOW COLUMNS FROM `news_comment` [ RunTime:0.0226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_comment` WHERE `lesson_id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002685s ]
+
+[ 2016-10-17T15:30:17+08:00 ] ::1 /fuckabc/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002854s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002690s ]
+
+[ 2016-10-17T15:30:18+08:00 ] ::1 /fuckabc/index.php/home/user/chklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002660s ]
+SQL: SHOW COLUMNS FROM `news_user` [ RunTime:0.0363s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_user` WHERE `name` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2016-10-17T15:30:22+08:00 ] ::1 /fuckabc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002865s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.318266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.318418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003322s ]
+
+[ 2016-10-17T15:31:05+08:00 ] ::1 /fuckabc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004138s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0393s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000435s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000629s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.366093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.366263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003257s ]
+
+[ 2016-10-17T19:20:52+08:00 ] ::1 /fuckabc/index.php/home/index/rankcsl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.047782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047944s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.439192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.439324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.037667s ]
+
+[ 2016-10-17T19:21:06+08:00 ] ::1 /fuckabc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004263s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 4   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `news_picnews` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY time desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'gzhd' ORDER BY time desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_picnews` WHERE `type` = 'sdln' ORDER BY time desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY view desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news_picnews` ORDER BY love desc LIMIT 3   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `news_video` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `news_video` ORDER BY addtime desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `news_rank` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `news_rank` ORDER BY rank LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `news_lesson` ORDER BY addtime desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '广州恒大' ORDER BY view desc LIMIT 5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '山东鲁能' ORDER BY view desc LIMIT 5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_lesson` WHERE `forteam` = '北京国安' ORDER BY view desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_video` WHERE `type` = 'gzhd'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+NOTIC: [8] Undefined index: view D:\myweb\fuckabc\Application\Runtime\Cache\Home\74c9bdbded7009a43a281be8a565b911.php 第 426 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.370983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.371104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008701s ]
+
+[ 2016-10-17T19:21:15+08:00 ] ::1 /fuckabc/index.php/home/index/search?key=%E6%81%92%E5%A4%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002634s ]
+SQL: SHOW COLUMNS FROM `news_lesson` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `news_lesson` WHERE `content` LIKE '%恒大%' OR `title` LIKE '%恒大%'  [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_lesson` WHERE `content` LIKE '%恒大%' OR `title` LIKE '%恒大%' LIMIT 1   [ RunTime:0.0008s ]
+
